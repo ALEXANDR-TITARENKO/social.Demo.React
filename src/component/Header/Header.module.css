@@ -1,0 +1,30 @@
+
+.header{
+    grid-area: h;   /*Говорим блок будет называться - h*/
+    background-color: rgb(0, 0, 0);
+    box-shadow:black 0 0 10px;
+    border-radius: 10px;
+   }
+.header img{
+  margin: 5px;
+     width: 4%;
+   }
+
+.header.activ{
+  grid-area: h;   /*Говорим блок будет называться - h*/
+  box-shadow:black 0 0 10px;
+  border-radius: 10p;
+  background: url(https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/0/AmazonStores/A21TJRUUN4KGV/76be064b5234d47179f5c99fc416a89b.w1920.h400._CR0%2C0%2C1920%2C400_SX1920_.jpg);}
+
+.loginBlock{
+  float:right;
+}
+.loginBlock a{
+  text-decoration: none;
+  color: azure;
+
+}
+.btn{
+  border: 2px solid black;
+color: black;
+}

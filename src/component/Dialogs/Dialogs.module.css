@@ -1,0 +1,45 @@
+
+.dialogs{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-template-areas:
+    "m s"
+    "t t"; 
+}
+.dialogsItem .dialog{
+    justify-content: flex-start;
+   }
+.dialogsItem .active{
+color: blue; 
+}
+
+
+.messeges{
+    margin-top: 1px;
+}
+.addMes{
+    grid-area: t;
+    margin: 20px;
+}
+.addMes textarea{
+    border: 1px solid black ;
+    box-shadow: 5px 5px 5px rgb(110, 110, 110);
+    border-radius: 20px;
+}
+
+
+.addMes button{
+    margin-left: 740px;
+    margin-top:10px;
+    background-color: rgb(1, 179, 155);
+    color: rgb(255, 254, 254);
+    border-radius: 20px ;
+}
+.addMes button:hover{
+    background-color: rgb(94, 255, 0);
+    color: rgb(255, 255, 255);
+    transition: background-color 0.5s;
+
+}
+
+

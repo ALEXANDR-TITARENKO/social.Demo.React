@@ -1,0 +1,55 @@
+
+
+.dialog{
+        width: 800px;
+        margin: 0 auto;
+        height: 300px;
+
+}
+.dialog textarea{
+    margin-top: 80px;
+    width: 800px;
+    height: 150px;
+    box-shadow: 2px 2px 2px rgb(131, 130, 130);
+    border-radius: 10px;
+    font-size: 30px;
+    color: grey;
+    text-align: center;
+}
+ .posts{
+     margin: 10px;
+  
+ }
+
+
+
+.dialog button{
+    border: 0.5px solid black;
+    font-size: 15px;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 3px;  
+    cursor: pointer; 
+    box-shadow: 2px 2px 2px rgb(131, 130, 130);
+ 
+}
+.btn{
+    background-color: rgb(1, 179, 155);
+    color: rgb(255, 254, 254);
+}
+.btn:hover{
+    background-color: rgb(94, 255, 0);
+    color: rgb(255, 255, 255);
+    transition: background-color 0.5s;
+
+}
+.btnClose{
+background-color: rgb(1, 179, 155);
+color: rgb(255, 255, 255);
+}
+.btnClose:hover{
+    background-color: rgb(253, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: background-color 0.5s;
+
+}

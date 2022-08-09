@@ -1,0 +1,22 @@
+.numbr{
+
+    padding: 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 0.5px solid black;
+    margin: 10px;
+    box-shadow: 10px 10px 10px black;
+
+}
+.numbr h1{
+    color: rgb(1, 255, 255);
+    text-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+.numbr img{
+    width: 300px;
+}
+.numbr p{
+text-shadow: 10px 10px 10px black;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;}

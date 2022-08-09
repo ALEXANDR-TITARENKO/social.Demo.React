@@ -1,0 +1,19 @@
+import React from "react";
+import { Navigate } from "react-router-dom";
+
+// export const withAuthRedirect = (Component) => {
+//   class RedirectComponents extends React.Component {
+//     render() {
+//       if (!this.props.isAuth) {
+//         return <Navigate to="/login" />;
+//       }
+
+//       return <Component {...this.props} />;
+//     }
+//   }
+
+//   return RedirectComponents;
+// };
+
+export const withAuthRedirect = (Component) => (props) =>
+  props.isAuth ? <Component {...props} /> : <Navigate to="/login" replace />;

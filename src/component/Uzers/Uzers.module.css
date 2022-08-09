@@ -1,0 +1,104 @@
+
+
+
+.container{
+    height: 100px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 30px;
+    
+}
+
+
+.info{
+    margin-left: 5px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+
+
+
+}
+.knopk{
+justify-content:center
+
+}
+.btn{
+    margin: 10px;
+    border: 0.5px solid;
+    box-shadow: 10px 10px 10px rgb(150, 150, 150);
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.btn:hover{
+    background-color: gray;
+    cursor: pointer;
+    color: azure;
+}
+.btn_1{ 
+    margin: 10px;
+    border: 0.5px solid;
+    box-shadow: 10px 10px 10px rgb(150, 150, 150);
+    padding: 5px;
+    border-radius: 10px;
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.btn_1:hover{
+    background-color: rgb(234, 230, 230);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.status{
+ margin: 15px;
+}
+
+.box{
+ display: flex;
+ width: 80%;
+ justify-content: space-between;
+ align-items: center;
+}
+.foto{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.select{
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 20px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 2px rgb(0, 0, 0);
+  
+}
+.selectAction{
+    cursor: pointer;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    margin: 10px;
+
+
+}
+.selectAction:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.numberList{
+    display:flex;
+    justify-content: center;
+    height:40px;
+    align-items: center;
+
+
+
+
+}
